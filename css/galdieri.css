@@ -247,12 +247,12 @@
   justify-content: flex-start;
   align-self: flex-start;
   align-items: flex-start;
-  margin-top: 0;
+  margin-top: -10px;
   margin-bottom: auto;
   font-family: Oswald, sans-serif;
   font-size: 45px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 55px;
   display: flex;
 }
 
@@ -614,7 +614,7 @@
   font-family: Oswald, sans-serif;
   font-size: 45px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 55px;
   display: block;
 }
 
@@ -860,6 +860,10 @@
     margin-top: 0;
   }
 
+  .heading-ministero-bis {
+    margin-top: -5px;
+  }
+
   .cell-2-copy, .cell-lista-nuove {
     display: block;
   }
@@ -918,6 +922,7 @@
 
   .heading-main {
     background-color: #ffffff80;
+    margin-top: -20px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -1060,7 +1065,7 @@
     -webkit-text-fill-color: inherit;
     background-color: #ffffffb3;
     background-clip: border-box;
-    margin-top: 10px;
+    margin-top: 0;
     font-size: 30px;
     line-height: 40px;
   }
