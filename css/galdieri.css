@@ -787,6 +787,21 @@
   box-shadow: 0 2px 5px #0003;
 }
 
+.grid-3-appoggio {
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 1fr;
+  width: 80%;
+  max-width: 400px;
+  padding: 30px;
+  position: relative;
+  transform: translate(0);
+  box-shadow: 5px 5px 12px 5px #0003;
+}
+
 @media screen and (max-width: 991px) {
   .cell {
     padding-top: 10px;
@@ -1127,6 +1142,10 @@
 
   .stack-per-listino-bis {
     width: 100%;
+  }
+
+  .grid-3-appoggio {
+    width: 95%;
   }
 }
 
