@@ -803,8 +803,9 @@
 }
 
 .nota-no-italic {
-  font-size: 13px;
+  font-size: 12px;
   font-style: normal;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
